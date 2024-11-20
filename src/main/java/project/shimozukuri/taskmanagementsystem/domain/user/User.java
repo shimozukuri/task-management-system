@@ -20,9 +20,8 @@ public class User {
 
     private String password;
 
+    @Transient
     private String passwordConfirm;
-
-    private String email;
 
     @Column(name = "role")
     @ElementCollection(fetch = FetchType.EAGER)

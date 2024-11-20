@@ -19,7 +19,7 @@ public class Task {
 
     private String title;
 
-    private String content;
+    private String description;
 
     @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "author_id", referencedColumnName = "id")

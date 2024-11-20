@@ -23,5 +23,6 @@ public class Comment {
 
     private String content;
 
+    @Column(name = "comment_date")
     private LocalDateTime commentDate;
 }

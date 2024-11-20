@@ -13,6 +13,4 @@ public class UserDto {
 
     private String passwordConfirm;
 
-    private String email;
-
 }
